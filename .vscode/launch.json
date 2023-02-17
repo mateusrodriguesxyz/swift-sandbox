@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug SwiftSandbox",
+            "program": "${workspaceFolder:swift-sandbox}/.build/debug/SwiftSandbox",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-sandbox}",
+            "preLaunchTask": "swift: Build Debug SwiftSandbox"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release SwiftSandbox",
+            "program": "${workspaceFolder:swift-sandbox}/.build/release/SwiftSandbox",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-sandbox}",
+            "preLaunchTask": "swift: Build Release SwiftSandbox"
+        }
+    ]
+}
