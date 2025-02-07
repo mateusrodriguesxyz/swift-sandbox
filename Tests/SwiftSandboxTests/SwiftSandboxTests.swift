@@ -1,6 +1,8 @@
-import XCTest
+import Testing
+
 @testable import SwiftSandbox
 
-final class SwiftSandboxTests: XCTestCase {
-    func testExample() throws { }
+@Test func example() async throws {
+    #expect(3 == 5)
+    // Write your test here and use APIs like `#expect(...)` to check expected conditions.
 }
